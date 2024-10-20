@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Learning Schedule</title>
+  <link href="styleOfText.css" ref="cast.css">
+  <link rel="stylesheet" href="cast.css">
+</head>
+<body>
+  <body>
+    <body>
+      <header>
+        <h1>My Daily Learning Schedule</h1>
+      </header>
+    
+      <main>
+        <table>
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Task</th>
+              <th>Done</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>09:00 - 09:10</td>
+              <td>HTML Coding</td>
+              <td><input type="radio" name="task-1" onclick="markAsDone('HTML Coding')"></td>
+            </tr>
+            <tr>
+              <td>09:10 - 09:20</td>
+              <td>CSS Coding</td>
+              <td><input type="radio" name="task-2" onclick="markAsDone('CSS Coding')"></td>
+            </tr>
+            <tr>
+              <td>09:20 - 09:30</td>
+              <td>Break (Stretch, Water)</td>
+              <td><input type="radio" name="task-3" onclick="markAsDone('Break')"></td>
+            </tr>
+            <tr>
+              <td>09:30 - 09:45</td>
+              <td>Write Book (Part 1)</td>
+              <td><input type="radio" name="task-4" onclick="markAsDone('Book Writing Part 1')"></td>
+            </tr>
+            <tr>
+              <td>09:45 - 10:00</td>
+              <td>Learn English Words</td>
+              <td><input type="radio" name="task-5" onclick="markAsDone('English Words')"></td>
+            </tr>
+            <tr>
+              <td>10:00 - 10:10</td>
+              <td>JavaScript Coding</td>
+              <td><input type="radio" name="task-6" onclick="markAsDone('JavaScript Coding')"></td>
+            </tr>
+            <tr>
+              <td>10:10 - 10:20</td>
+              <td>Break (Fresh Air)</td>
+              <td><input type="radio" name="task-7" onclick="markAsDone('Fresh Air Break')"></td>
+            </tr>
+            <tr>
+              <td>10:20 - 10:30</td>
+              <td>Read HP (10 mins)</td>
+              <td><input type="radio" name="task-8" onclick="markAsDone('Reading HP')"></td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+    
+      <footer>
+        <p>&copy; 2024 My Daily Schedule Tracker</p>
+      </footer>
+    
+      <script>
+        function markAsDone(task) {
+          alert(task + " is marked as complete!");
+        }
+      </script>
+  </body>
+  </html>
+</body>
+</html>
