@@ -1,5 +1,3 @@
-'hello'
-'hello'
-alert('hello')
-
-'some'+'text'
+        function markAsDone(task) {
+          alert(task + " is marked as complete!");
+        }
